@@ -1,0 +1,3 @@
+# React Native AsyncStorage Parsing Error with Complex Objects
+
+This repository demonstrates a common error that can occur when using AsyncStorage in React Native with complex data structures.  The problem arises from the fact that AsyncStorage only stores strings.  When storing a complex object, it gets automatically stringified, but when retrieving and parsing, unexpected errors can appear if the object structure changes.
